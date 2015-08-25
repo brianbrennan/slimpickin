@@ -1,0 +1,23 @@
+{
+  "name": "slimpickin",
+  "version": "1.0.0",
+  "homepage": "https://github.com/brianbrennan/slimpickin",
+  "authors": [
+    "Brian Brennan <me@brianbrennan.com>"
+  ],
+  "description": "A DOM Element Selction Tool",
+  "keywords": [
+    "DOM",
+    "Selection",
+    "DOM",
+    "Element"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
