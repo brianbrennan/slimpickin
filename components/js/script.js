@@ -1,1 +1,1 @@
-console.log(typeof s("p").at(2).hasClass());
+console.log(s("p").innerHtml());
