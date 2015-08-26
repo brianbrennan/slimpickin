@@ -12,6 +12,7 @@
     "DOM",
     "Element"
   ],
+  "directory": "components/lib/",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -19,5 +20,10 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.4",
+    "susy": "~2.2.5",
+    "breakpoint": "~4.6.4"
+  }
 }

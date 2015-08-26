@@ -45,3 +45,11 @@ Temporary Items
 #Self Made ignores
 node_modules
 bower_components
+components/lib/bourbon
+components/lib/breakpoint
+components/lib/eventEmitter
+components/lib/eventie
+components/lib/imagesloaded
+components/lib/jquery
+components/lib/susy
+
