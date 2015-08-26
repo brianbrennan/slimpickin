@@ -1,1 +1,1 @@
-console.log(s("p").innerHtml());
+console.log(s("p").l);
