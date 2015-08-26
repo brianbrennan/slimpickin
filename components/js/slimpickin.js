@@ -57,7 +57,7 @@ window.s = function(selector){//selector is what Slimpickin will pick
 		}
 	};
 
-	l.style = function(st, stv){ //changes css property of st to stv
+	l.css = function(st, stv){ //changes css property of st to stv
 		if(typeof stv !== "undefined"){
 			if(!l.ia)
 				l.style[st] = stv;
