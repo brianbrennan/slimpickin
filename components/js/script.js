@@ -1,1 +1,1 @@
-s("p").insert("hello");
+console.log(s('p').last());

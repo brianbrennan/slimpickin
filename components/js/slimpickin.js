@@ -194,6 +194,12 @@
 		at: function(pos){
 			return new Slimpickin(this.selector, pos);
 		},
+		first: function(){
+			return new Slimpickin(this.selector, 0);
+		},
+		last: function(){
+			return new Slimpickin(this.selector, this.l.length - 1);
+		},
 		each: function(cb){
 			for(var i = 0; i < this.l.length; i++){
 				cb();
@@ -216,8 +222,9 @@
 			return this;
 		},
 		append: function(ap){
-			for(var i = 0; i < this.l.length; i++)
+			for(var i = 0; i < this.l.length; i++){
 				this.l[i].outerHTML = this.l[i].outerHTML + ap;
+			}
 			return this;
 		},
 		prepend: function(pre){
