@@ -17,9 +17,14 @@
 		} else {
 			this.l = [document.querySelectorAll(selector)[pos]];
 		}
+
 	};
 
-	s.fn = Slimpickin.prototype = {//functions for the Slimpickin Class
+	Slimpickin.test = function(){
+		return "test";
+	};
+
+	s.fn = Slimpickin.prototype = { //functions for the Slimpickin Class
 		innerHtml: function(ih){//innerHtml() function
 			if(typeof ih !== 'undefined'){//sets the innerHtml, returns this;
 				for(var i = 0; i < this.l.length; i++)
@@ -233,7 +238,7 @@
 			return this;
 		},
 		wrap: function(pre, ap){
-			for(var i = 0; i < this.l.length; i++){
+			for(var i = 0; i < this.l.length; i++)
 				this.l[i].outerHTML = pre + this.l[i].outerHTML + ap;
 			return this;
 		}
@@ -242,6 +247,11 @@
 
 	if(!window.s){
 		window.s = s;
+	}
+
+	if(!window.S){
+		window.S = Slimpickin;
+		window.Slimpickin = Slimpickin;
 	}
 
 }());													
