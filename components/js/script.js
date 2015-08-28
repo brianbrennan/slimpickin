@@ -1,3 +1,3 @@
 S.ready(function(){
-	s('p').last().addClass('test');
+	s('p').first().css('color','green');
 });

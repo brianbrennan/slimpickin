@@ -252,8 +252,7 @@
 	}
 
 	if(!window.S){
-		window.S = Slimpickin;
-		window.Slimpickin = Slimpickin;
+		window.S = window.Slimpickin = Slimpickin;
 	}
 
 }());													
