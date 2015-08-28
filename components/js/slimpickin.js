@@ -20,8 +20,10 @@
 
 	};
 
-	Slimpickin.test = function(){
-		return "test";
+	Slimpickin.ready = function(cb){
+		document.addEventListener('DOMContentLoaded',cb());
+
+		return this;
 	};
 
 	s.fn = Slimpickin.prototype = { //functions for the Slimpickin Class
