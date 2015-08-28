@@ -1,1 +1,1 @@
-console.log(s("p").l);
+s("p").insert("hello");
