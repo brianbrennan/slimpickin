@@ -64,8 +64,10 @@
 			} else {
 
 				var sta = [];
-				for(var i = 0; i < this.length; i++){
-					sta[i] = l[i].style[st];
+
+				for(var i = 0; i < this.l.length; i++){
+					var element = document.querySelectorAll(this.selector)[i];
+					sta[i] = window.getComputedStyle(element)[st];
 				}
 
 				return sta;
