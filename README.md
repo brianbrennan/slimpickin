@@ -27,17 +27,20 @@ Slimpickin is designed to include only the most essential DOM selection function
 
 #####innerHtml(String)
 
+  
+
 If no parameter provided, returns element's inner HTML as an **Array**
 Else, sets the inner HTML of the elements to the String provided, and returns **Slimpickin Object**
 
-
+  
 
 #####outerHtml(String)
 
 If no parameter provided, returns element's outer HTML as an **Array**
 Else, sets the outer HTML of the elements to the String provided, and returns **Slimpickin Object**
 
-
+  
+  
 
 #####css(String, String)
 
