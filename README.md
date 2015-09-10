@@ -28,5 +28,6 @@ Slimpickin is designed to include only the most essential DOM selection function
 ###innerHtml(String)
 
 If no parameter provied, returns element's inner HTML as an **Array**
+Else, sets the inner HTML of the elements to the String provided, and returns **Slimpickin Object**
 
 
