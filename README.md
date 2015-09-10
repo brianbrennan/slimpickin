@@ -118,6 +118,12 @@ Returns first **Element Object** of selected
 
 Returns lastt **Element Object** of selected
 
+#####each(callback)
+
+Performs the given callback function x number of times, where x is the number of selected elements
+
+Returns **Slimpickin Object**
+
 
 
 
