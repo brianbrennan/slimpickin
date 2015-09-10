@@ -124,6 +124,36 @@ Performs the given callback function x number of times, where x is the number of
 
 Returns **Slimpickin Object**
 
+#####insert(String)
+
+Adds the given String to the end of the elements' inner HTML.
+
+Returns **Slimpickin Object**
+
+#####presert(String)
+
+Adds the given String to the beginning the elements' inner HTML.
+
+Returns **Slimpickin Object**
+
+#####append(String)
+
+Adds the given String after the elements' outer HTML.
+
+Returns **Slimpickin Object**
+
+#####prependt(String)
+
+Adds the given String before the elements' outer HTML.
+
+Returns **Slimpickin Object*
+
+#####wrap(String, String)
+
+Adds the given Strings to before and after the elements' outer HTML, respectively
+
+Returns **Slimpickin Object**
+
 
 
 
