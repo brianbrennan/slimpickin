@@ -25,9 +25,30 @@ Slimpickin's instances can be called in the above manner, or on individual level
 
 Slimpickin is designed to include only the most essential DOM selection functions. As such, the following are the supported functions that can be called on a Slimpickin instance. Note that some methods return Slimpickin themselves, allowing method chaining for easier coding
 
-###innerHtml(String)
+#####innerHtml(String)
 
-If no parameter provied, returns element's inner HTML as an **Array**
+If no parameter provided, returns element's inner HTML as an **Array**
 Else, sets the inner HTML of the elements to the String provided, and returns **Slimpickin Object**
+
+#####outerHtml(String)
+
+If no parameter provided, returns element's outer HTML as an **Array**
+Else, sets the outer HTML of the elements to the String provided, and returns **Slimpickin Object**
+
+#####css(String, String)
+
+If second parameter provided, sets css style of first parameter to second parameter. Returns **Slimpickin Object**.
+Else, returns css attribute of first parameter, as an **Array**
+
+#####attr(String, String)
+
+If second parameter provided, sets attribute of first parameter to second parameter. Returns **Slimpickin Object**.
+Else, returns attribute of first parameter, as an **Array**
+
+#####class(String)
+
+If no parameter provided, returns element's classes as an **Array**
+Else, sets the class of the elements to the given String. Returns **Slimpickin Object**. 
+***NOTE: This is not an additive method. The provided String will overwrite all classes***
 
 
