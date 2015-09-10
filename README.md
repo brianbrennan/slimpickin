@@ -106,6 +106,18 @@ Returns an **Array** of Booleans based on if the selected element has the given 
 
 Returns an **Array** of Booleans based on if the selected element has the given parameter as an id.
 
+#####at(Number)
+
+Returns **Element Object** at the given parameter position
+
+#####first()
+
+Returns first **Element Object** of selected
+
+#####lastt()
+
+Returns lastt **Element Object** of selected
+
 
 
 
