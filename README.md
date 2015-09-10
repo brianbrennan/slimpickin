@@ -9,6 +9,6 @@ Slimpickin is a small tool designed to make selecting DOM elements much easier. 
 
 Installing Slimpickin is extremely simple. Simply download the source file from this repository, and add it to a script tag on your web page. 
 
-  <script src="js/slimpickin.js"></script>
+    <script src="js/slimpickin.js"></script>
   
 
