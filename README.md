@@ -52,4 +52,38 @@ Else, sets the class of the elements to the given String. Returns **Slimpickin O
 
 ***NOTE: This is not an additive method. The provided String will overwrite all classes***
 
+#####_id(String)
+
+If no parameter provided, returns element's id's as an **Array**
+Else, sets the id of the elements to the given String. Returns **Slimpickin Object**
+
+***NOTE: This is not an additive method. The provided String will overwrite all id's. Also note that the id will be added to all selected elements. This is not ideal, and should be reserved for single DOM elements***
+
+#####addClass(String)
+
+Adds given parameter as a class to the selected elements. Returns **Slimpickin Object**
+
+#####addId(String)
+
+Adds given parameter as a id to the selected elements. Returns **Slimpickin Object**
+
+#####removeClass(String)
+
+Removes given parameter as a class to the selected elements. Returns **Slimpickin Object**
+
+#####removeId(String)
+
+Removes given parameter as a id to the selected elements. Returns **Slimpickin Object**
+
+#####hasClass(String)
+
+Returns an **Array** of Booleans based on if the selected element has the given parameter as a class.
+
+#####hasId(String)
+
+Returns an **Array** of Booleans based on if the selected element has the given parameter as an id.
+
+
+
+
 
