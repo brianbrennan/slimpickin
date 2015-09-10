@@ -48,7 +48,8 @@ Else, returns attribute of first parameter, as an **Array**
 #####class(String)
 
 If no parameter provided, returns element's classes as an **Array**
-Else, sets the class of the elements to the given String. Returns **Slimpickin Object**. 
+Else, sets the class of the elements to the given String. Returns **Slimpickin Object**
+
 ***NOTE: This is not an additive method. The provided String will overwrite all classes***
 
 
