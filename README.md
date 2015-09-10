@@ -114,7 +114,7 @@ Returns **Element Object** at the given parameter position
 
 Returns first **Element Object** of selected
 
-#####lastt()
+#####last()
 
 Returns lastt **Element Object** of selected
 
@@ -146,7 +146,7 @@ Returns **Slimpickin Object**
 
 Adds the given String before the elements' outer HTML.
 
-Returns **Slimpickin Object*
+Returns **Slimpickin Object**
 
 #####wrap(String, String)
 
