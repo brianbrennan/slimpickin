@@ -27,9 +27,8 @@ Slimpickin is designed to include only the most essential DOM selection function
 
 #####innerHtml(String)
 
-  
-
 If no parameter provided, returns element's inner HTML as an **Array**
+
 Else, sets the inner HTML of the elements to the String provided, and returns **Slimpickin Object**
 
   
@@ -37,6 +36,7 @@ Else, sets the inner HTML of the elements to the String provided, and returns **
 #####outerHtml(String)
 
 If no parameter provided, returns element's outer HTML as an **Array**
+
 Else, sets the outer HTML of the elements to the String provided, and returns **Slimpickin Object**
 
   
@@ -45,34 +45,50 @@ Else, sets the outer HTML of the elements to the String provided, and returns **
 #####css(String, String)
 
 If second parameter provided, sets css style of first parameter to second parameter. Returns **Slimpickin Object**.
+
 Else, returns css attribute of first parameter, as an **Array**
+
+
 
 #####attr(String, String)
 
 If second parameter provided, sets attribute of first parameter to second parameter. Returns **Slimpickin Object**.
+
 Else, returns attribute of first parameter, as an **Array**
+
+
 
 #####class(String)
 
 If no parameter provided, returns element's classes as an **Array**
+
 Else, sets the class of the elements to the given String. Returns **Slimpickin Object**
 
 ***NOTE: This is not an additive method. The provided String will overwrite all classes***
 
+
+
 #####_id(String)
 
 If no parameter provided, returns element's id's as an **Array**
+
 Else, sets the id of the elements to the given String. Returns **Slimpickin Object**
 
 ***NOTE: This is not an additive method. The provided String will overwrite all id's. Also note that the id will be added to all selected elements. This is not ideal, and should be reserved for single DOM elements***
+
+
 
 #####addClass(String)
 
 Adds given parameter as a class to the selected elements. Returns **Slimpickin Object**
 
+
+
 #####addId(String)
 
 Adds given parameter as a id to the selected elements. Returns **Slimpickin Object**
+
+
 
 #####removeClass(String)
 
