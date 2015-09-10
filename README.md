@@ -17,10 +17,16 @@ Once again, Slimpickin shines with its simplicity. If you already use a JS libra
 
     s('p'); // Will get all p tags in the DOM
     
-Slimpickin's instances can be called in the above manner, or on individual levels. If you would like to select the third paragraph element in the DOM, for instance, you would write the following:
+Slimpickin's instances can be called in the above manner, or on individual levels. If you would like to select the third paragraph element in the DOM, for example, you would write the following:
 
     s('p', 2); //Note the new parameter, and that it is 0 index based
   
 ##Methods
 
-Slimpickin is designed to include only the most essential DOM selection functions. 
+Slimpickin is designed to include only the most essential DOM selection functions. As such, the following are the supported functions that can be called on a Slimpickin instance. Note that some methods return Slimpickin themselves, allowing method chaining for easier coding
+
+###innerHtml(String)
+
+If no parameter provied, returns element's inner HTML as an **Array**
+
+
