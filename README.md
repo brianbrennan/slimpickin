@@ -170,8 +170,6 @@ Returns **Slimpickin Object**
 
 Adds a mouseover event listener to all selected elements. Performs provided callback with event listener. If second callback provided, will add mouseout event listener that performs second callback. 
 
-**Returns **Slimpickin Object**
-
 Returns **Slimpickin Object**
 
 
