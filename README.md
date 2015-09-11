@@ -27,6 +27,11 @@ Slimpickin also has the option of having a DOM element as a constructor paramete
         s(this).css('color', 'red');
     } // sets color of clicked paragraph to red
     
+Method chaining is a useful feature in Slimpickin. This allows you to call multiple functions one after the other, so long as the prior method returns a Slimpickin Object
+
+    s('p').css('color','red').attr('value', '5').insert('Hey there');
+    //sets all paragraph color to red, value to five, and inserts 'Hey There';
+    
 
   
 ##Methods
