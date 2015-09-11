@@ -25,6 +25,13 @@ gulp.task('js', function() {
     .pipe(browserSync.stream());
 });
 
+gulp.task('src', function(){
+  return gulp.src('src/slimpickin.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('./components/slimpickin.min.js'))
+    .pipe(browserSync.stream());
+});
+
 gulp.task('sass', function(){
   return gulp.src('components/scss/style.scss')
   .pipe(plumber({
