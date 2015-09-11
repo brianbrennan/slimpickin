@@ -1,4 +1,3 @@
-
-
-for(var i = 0; i < s("p").l.length - 1; i++)
-	s("p").css("color","#666");
+S.ready(function(){
+	s('p').first().css('color','green');
+});

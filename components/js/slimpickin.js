@@ -20,8 +20,10 @@
 
 	};
 
-	Slimpickin.test = function(){
-		return "test";
+	Slimpickin.ready = function(cb){
+		document.addEventListener('DOMContentLoaded',cb());
+
+		return this;
 	};
 
 	s.fn = Slimpickin.prototype = { //functions for the Slimpickin Class
@@ -62,8 +64,10 @@
 			} else {
 
 				var sta = [];
-				for(var i = 0; i < this.length; i++){
-					sta[i] = l[i].style[st];
+
+				for(var i = 0; i < this.l.length; i++){
+					var element = document.querySelectorAll(this.selector)[i];
+					sta[i] = window.getComputedStyle(element)[st];
 				}
 
 				return sta;
@@ -250,8 +254,7 @@
 	}
 
 	if(!window.S){
-		window.S = Slimpickin;
-		window.Slimpickin = Slimpickin;
+		window.S = window.Slimpickin = Slimpickin;
 	}
 
 }());													
