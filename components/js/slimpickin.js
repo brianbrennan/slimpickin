@@ -251,6 +251,22 @@
 				this.l[i].addEventListener(ev, cb);
 			}
 			return this;
+		},
+		click: function(cb){
+			for(var i = 0; i < this.l.length; i++){
+				this.l[i].addEventListener('click', cb);
+			}
+			return this;
+		},
+		hover: function(cb, cb2){
+			for(var i = 0; i < this.l.length; i++){
+				this.l[i].addEventListener('mouseover', cb);
+				if(typeof cb2 !== 'undefined')
+					this.l[i].addEventListener('mouseout',cb2);
+				else
+					this.l[i].addEventListener('mouseout',cb);
+			}
+			return this;
 		}
 
 	};

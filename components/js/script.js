@@ -1,5 +1,7 @@
 S.ready(function(){
-	s('p').on('click', function(){
-		console.log("test");
+	s('p').hover(function(){
+		s('p').css('background-color', 'black');
+	}, function(){
+		s('p').css('background-color', 'white');
 	});
 });
