@@ -12,6 +12,9 @@
 	var Slimpickin = function(selector, pos){//selector is what Slimpickin will pick
 
 		if(typeof pos === 'undefined'){
+			if(typeof selector === 'object')
+				selector = Slimpickin.fullPath(selector);
+
 			this.l = document.querySelectorAll(selector);//l is short for element, what will be returned to s;
 			this.selector = selector;
 		} else {
@@ -25,6 +28,24 @@
 
 		return this;
 	};
+
+	Slimpickin.fullPath = function(el){
+		var names = [];
+		while (el.parentNode){
+			if (el.id){
+				names.unshift('#'+el.id);
+				break;
+			}else{
+				if (el==el.ownerDocument.documentElement) names.unshift(el.tagName);
+				else{
+					for (var c=1,e=el;e.previousElementSibling;e=e.previousElementSibling,c++);
+						names.unshift(el.tagName+":nth-child("+c+")");
+				}
+				el=el.parentNode;
+			}
+		}
+		return names.join(" > ");
+	}
 
 	s.fn = Slimpickin.prototype = { //functions for the Slimpickin Class
 		innerHtml: function(ih){//innerHtml() function
@@ -267,6 +288,9 @@
 					this.l[i].addEventListener('mouseout',cb);
 			}
 			return this;
+		},
+		toggle: function(cb, cb2){
+			
 		}
 
 	};
