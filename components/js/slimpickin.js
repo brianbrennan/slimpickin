@@ -245,6 +245,12 @@
 			for(var i = 0; i < this.l.length; i++)
 				this.l[i].outerHTML = pre + this.l[i].outerHTML + ap;
 			return this;
+		},
+		on: function(ev, cb){
+			for(var i = 0; i < this.l.length; i++){
+				this.l[i].addEventListener(ev, cb);
+			}
+			return this;
 		}
 
 	};

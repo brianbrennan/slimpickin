@@ -1,3 +1,5 @@
 S.ready(function(){
-	s('p').first().css('color','green');
+	s('p').on('click', function(){
+		console.log("test");
+	});
 });
