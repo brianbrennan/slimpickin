@@ -20,6 +20,19 @@ Once again, Slimpickin shines with its simplicity. If you already use a JS libra
 Slimpickin's instances can be called in the above manner, or on individual levels. If you would like to select the third paragraph element in the DOM, for example, you would write the following:
 
     s('p', 2); //Note the new parameter, and that it is 0 index based
+    
+Slimpickin also has the option of having a DOM element as a constructor parameter. This is extremely useful when implementing in functions, as it allows for the 'this' keyword to be used.
+
+    s('p').on('click', function(){
+        s(this).css('color', 'red');
+    } // sets color of clicked paragraph to red
+    
+Method chaining is a useful feature in Slimpickin. This allows you to call multiple functions one after the other, so long as the prior method returns a Slimpickin Object
+
+    s('p').css('color','red').attr('value', '5').insert('Hey there');
+    //sets all paragraph color to red, value to five, and inserts 'Hey There';
+    
+
   
 ##Methods
 
