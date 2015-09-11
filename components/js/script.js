@@ -1,3 +1,5 @@
 S.ready(function(){
-	s('p').first().css('color','green');
+	s('p').click(function(){
+		s(this).css('background-color', 'black');
+	});
 });

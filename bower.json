@@ -1,11 +1,14 @@
 {
   "name": "slimpickin",
-  "version": "0.5.0",
+  "version": "0.8.0",
   "homepage": "https://github.com/brianbrennan/slimpickin",
   "authors": [
     "Brian Brennan <me@brianbrennan.com>"
   ],
-  "description": "A DOM Element Selction Tool",
+  "main": [
+    "components/js/slimpickin.js"
+  ],
+  "description": "A DOM Element Selection Tool",
   "keywords": [
     "DOM",
     "Selection",
