@@ -154,6 +154,28 @@ Adds the given Strings to before and after the elements' outer HTML, respectivel
 
 Returns **Slimpickin Object**
 
+#####on(String, callback)
+
+Adds an event listener to all selected elements, based on the first parameter. Performs provided callback with event listener. 
+
+Returns **Slimpickin Object**
+
+#####click(callback)
+
+Adds a click event listener to all selected elements. Performs provided callback with event listener. 
+
+Returns **Slimpickin Object**
+
+#####hover(callback, callback2)
+
+Adds a mouseover event listener to all selected elements. Performs provided callback with event listener. If second callback provided, will add mouseout event listener that performs second callback. 
+
+**Returns **Slimpickin Object**
+
+Returns **Slimpickin Object**
+
+
+
 
 
 
