@@ -155,7 +155,7 @@ Adds the given String after the elements' outer HTML.
 
 Returns **Slimpickin Object**
 
-#####prependt(String)
+#####prepend(String)
 
 Adds the given String before the elements' outer HTML.
 
