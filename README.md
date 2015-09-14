@@ -33,6 +33,12 @@ Method chaining is a useful feature in Slimpickin. This allows you to call multi
     //sets all paragraph color to red, value to five, and inserts 'Hey There';
     
 
+##Versions
+
+Current version - 0.8.0
+
+0.8.0 is the only release right now, with a major and full release coming soon
+
   
 ##Methods
 
