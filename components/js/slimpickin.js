@@ -286,6 +286,12 @@
 					this.l[i].addEventListener('mouseout',cb2);
 			}
 			return this;
+		},
+		ready: function(cb){//STILL IN DEVELOPMENT
+			for(var i = 0; i < this.l.length; i++){
+				this.l[i].addEventListener('load', cb);
+			}
+			return this;
 		}
 
 	};
