@@ -9,7 +9,15 @@ Slimpickin is a small tool designed to make selecting DOM elements much easier. 
 
 Installing Slimpickin is extremely simple. Simply download the source file from this repository, and add it to a script tag on your web page. 
 
-    <script src="js/slimpickin.js"></script>
+    <script src="js/slimpickin.js"></script>\
+    
+If you have Bower, you can install using the simple command below instead
+
+    bower install slimpickin
+    
+Then at the bottom of your web page, just link to Slimpickin in your Bower folder.
+
+    <script src="bower_components/slimpickin/dist/slimpickin.min.js"></script>
     
 ##How to use
 
