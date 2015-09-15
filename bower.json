@@ -6,25 +6,28 @@
     "Brian Brennan <me@brianbrennan.com>"
   ],
   "main": [
-    "components/js/slimpickin.js"
+    "dist/slimpickin.js"
   ],
   "description": "A DOM Element Selection Tool",
   "keywords": [
     "DOM",
     "Selection",
-    "DOM",
-    "Element"
+    "Element",
+    "JQuery"
   ],
   "directory": "components/lib/",
   "license": "MIT",
   "ignore": [
-    "**/.*",
+    "components",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    ".bowerrc",
+    "bower.json",
+    "gulpfile.js",
+    "index.html",
+    "package.json",
+    "README.md"
   ],
-  "dependencies": {
+  "devDependencies": {
     "bourbon": "~4.2.4",
     "susy": "~2.2.5",
     "breakpoint": "~4.6.4"
