@@ -24,7 +24,7 @@
 	};
 
 	Slimpickin.ready = function(cb){
-		document.addEventListener('DOMContentLoaded',cb());
+		document.addEventListener('DOMContentLoaded',cb;
 
 		return this;
 	};
